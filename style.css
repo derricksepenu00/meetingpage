@@ -765,7 +765,7 @@ footer{
 .sec-1{
 	position: absolute;
 	display: flex;
-	width:50vh;
+	width:50%;
 	height:153px;
 	left:60px;
 	top: 130px;
