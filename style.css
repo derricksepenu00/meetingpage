@@ -749,7 +749,7 @@ footer{
 
 
 /**Mobile**/
-@media (max-width: 375px){
+@media (max-width:678px)and(min-width: 375px){
 	header{
 	position: absolute;
 	display: flex;
