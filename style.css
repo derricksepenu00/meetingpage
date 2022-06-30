@@ -19,7 +19,7 @@ header{
 	width:119px;
 	height: 28px;
 	top:5%;
-	left: 50%;
+	left:45%;
 }
 #logo{
 	width: 79px;
@@ -28,6 +28,8 @@ header{
 .sec-1{
 	position: absolute;
 	display: flex;
+	align-items: center;
+	left:120px;
 	width: 1504px;
 	height: 358px;
 }
@@ -232,7 +234,7 @@ header{
 .sec-2{
 	position: absolute;
 	display: flex;
-	left: 195px;
+	left:300px;
 	top: 600px;
 }
 #man{
@@ -269,7 +271,7 @@ header{
 	display: flex;
 	width: 540px;
 	height: 240px;
-	left: 410px;
+	left: 500px;
 	top: 1163px;
 }
 #middle-title{
@@ -374,8 +376,8 @@ footer{
 	color: white;
 }
 #footer-button:hover{
-	background-color:#D9B8FF;
-	cursor: pointer;	
+	background-color: blue;
+	cursor: pointer;
 }
 #footer-image{
 	position: absolute;
@@ -1033,7 +1035,7 @@ footer{
 }
 #foot-head{
 	position: absolute;
-	left:50px;
+	left:70px;
 	top:20%;
 	bottom: 0%;
 	font-family: 'Red Hat Display';
@@ -1076,7 +1078,7 @@ footer{
 	color: white;
 }
 #footer-button:hover{
-	background-color: white;
+	color: blue;
 	cursor: pointer;
 }
 .image, #footer-image{
