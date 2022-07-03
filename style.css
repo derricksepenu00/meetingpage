@@ -3,23 +3,27 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-html{
+html,body{
 	font-size: 16px;
 	font-family: "Red Hat Display", sans-serif;
 	background-color: #FAFAFA;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+
 }
 .body{
 	width: 100%;
-	min-height: 100vh;
+	height: 100vh;
 	overflow-x: hidden;
 }
 header{
 	position: absolute;
 	display: flex;
-	width:119px;
+	width:100%;
 	height: 28px;
 	top:5%;
-	left:45%;
+	left: 50%;
 }
 #logo{
 	width: 79px;
@@ -28,8 +32,6 @@ header{
 .sec-1{
 	position: absolute;
 	display: flex;
-	align-items: center;
-	left:120px;
 	width: 1504px;
 	height: 358px;
 }
@@ -234,7 +236,7 @@ header{
 .sec-2{
 	position: absolute;
 	display: flex;
-	left:300px;
+	left: 195px;
 	top: 600px;
 }
 #man{
@@ -271,7 +273,7 @@ header{
 	display: flex;
 	width: 540px;
 	height: 240px;
-	left: 500px;
+	left: 410px;
 	top: 1163px;
 }
 #middle-title{
@@ -326,7 +328,7 @@ footer{
 	position: absolute;
 	display: flex;
 	width:100%;
-	height: 308px;
+	height: 310px;
 	left: 0px;
 	top: 1587px;
 	background-color:#4D96A9;
@@ -376,8 +378,8 @@ footer{
 	color: white;
 }
 #footer-button:hover{
-	background-color: blue;
-	cursor: pointer;
+	background-color:#D9B8FF;
+	cursor: pointer;	
 }
 #footer-image{
 	position: absolute;
@@ -565,8 +567,9 @@ footer{
 	color: white;
 	text-decoration: none;
 	display: flex;
+	font-size: 10px;
 	top: 30%;
-	margin:15px auto;
+	margin:12px auto;
 }
 #Download:hover{
 	background-color:#8FE3F9;
@@ -589,7 +592,8 @@ footer{
 }
 #What span{
 	display: flex;
-	margin: 17px 40px auto;
+	font-size: 10px;
+	margin: 15px 40px auto;
 	
 }
 .sec-2{
@@ -1035,7 +1039,7 @@ footer{
 }
 #foot-head{
 	position: absolute;
-	left:70px;
+	left:65px;
 	top:20%;
 	bottom: 0%;
 	font-family: 'Red Hat Display';
@@ -1050,7 +1054,7 @@ footer{
 	position: absolute;
 	width:150px;
 	height: 52px;
-	margin-left: 80px;
+	margin-left:105px;
 	top:45%;
 	font-family: 'Red Hat Display';
 	font-style: normal;
@@ -1065,7 +1069,7 @@ footer{
 	text-align: center;
 	width: 150px;
 	height:50px;
-	left:28%;
+	left:30%;
 	top:80%;
 	background-color:#B18BDD;
 	border-radius: 100px;
@@ -1074,11 +1078,11 @@ footer{
 .footer-button span{
 	position: absolute;
 	color: white;
-	margin:20px -25px auto;
+	margin:12px -40px auto;
 	color: white;
 }
 #footer-button:hover{
-	color: blue;
+	background-color: white;
 	cursor: pointer;
 }
 .image, #footer-image{
